@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Fact Generator</h1>
+
+        <!-- Dropdown -->
+        <select id="category">
+            <option value="cat">Cat Fact & Image</option>
+            <option value="dog">Dog Fact & Image</option>
+            <option value="quote">Quote</option>
+        </select>
+
+        <!-- Button -->
+        <button id="btn">Get Fact</button>
+        
+        <!-- Output Area -->
+        <div id="output">
+            <p id="text">Click the button to get something interesting!</p>
+            <img id="image" src="" alt="" style="display:none">
+        </div>
+
+        <!-- History -->
+        <div id="history">
+            <h3>History</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
